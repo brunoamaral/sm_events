@@ -2,7 +2,9 @@
       <div class="container">
         <div class="col-md-6">
           <ul class="text-muted">
-            <li><a href="{{ site.baseurl }}/about.html">About</a></li>
+            {% for page in site.pages %}
+            <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
+            {% endfor %}
           </ul>
 
           <ul class="text-muted">
@@ -10,7 +12,7 @@
           </ul>
 
         </div>
-        <div class="col-md-6 text-right"><a href="http://photowalke.rs"><img src="{{ site.baseurl }}/assets/images/logo+site+branco.png"></a></div>
+        <div class="col-md-6 text-right"><a href="http://shiftconference.eu"><img src="{{ site.baseurl }}/assets/images/shift2014s1.png"></a></div>
       </div>
     </div>
 
