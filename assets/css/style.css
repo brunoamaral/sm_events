@@ -1,0 +1,117 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -200px;
+  /* Pad bottom by footer height */
+  padding: 0 0 200px;
+}
+
+/* Set the fixed height of the footer here */
+#footer {
+  height: 200px;
+  background-color: #000;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+/* Fonts */
+body, body p{
+font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+text-transform: none;
+text-decoration: none;
+letter-spacing: 0em;
+word-spacing: 0em;
+line-height: 1.4;
+}
+
+body h2, h3, h4, h5, h6{
+
+font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+text-transform: none;
+text-decoration: none;
+letter-spacing: 0em;
+word-spacing: 0em;
+line-height: 1.4;
+}
+
+body h2, body h2 a{
+  color:#333;
+}
+
+#footer p a, #footer a {
+	  color: #999999;
+}
+
+#footer ul.text-muted, #footer li{
+  list-style-type: none;
+  padding-left: 0;
+}
+
+/**/
+
+/* Classes */
+
+.text-justify{
+	text-align: justify;
+	hyphens: auto;
+}
+
+/**/
+
+/* youtube */
+.videowrapper {
+    float: none;
+    clear: both;
+    width: 100%;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+}
+.videowrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/**/
+
+/* share buttons */
+.fb-like, .twitter-share-button, .google_plus{
+  float: left;
+}
+.share_buttons{
+  padding-top: 10px;
+  max-width: 320px;
+}
+/**/

@@ -1,0 +1,11 @@
+name: Social Media Events
+pygments: true
+baseurl: /sm_events
+
+url: http://labs.brunoamaral.eu/sm_events
+description: Eventos de social media em Portugal.
+author: Bruno Amaral
+copyright: Bruno Amaral
+rss_path: /feed
+rss_name:
+rss_post_limit: 10

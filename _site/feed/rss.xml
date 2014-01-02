@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+  <channel>
+    <title>Social Media Events</title>
+    <link>http://labs.brunoamaral.eu/sm_events</link>
+    <description>Eventos de social media em Portugal.</description>
+    <copyright>Bruno Amaral</copyright>
+    <pubDate>Sun, 22 Dec 2013 00:00:00 +0000</pubDate>
+    <item>
+      <title>Hello World</title>
+      <link>http://labs.brunoamaral.eu/sm_events/2013/12/22/merry-christmas.html</link>
+      <description>&lt;p&gt;Lorem Ipsum&lt;/p&gt;</description>
+      <pubDate>Sun, 22 Dec 2013 00:00:00 +0000</pubDate>
+      <guid>http://labs.brunoamaral.eu/sm_events/2013/12/22/merry-christmas.html</guid>
+      <dc:date>2013-12-22T00:00:00+00:00</dc:date>
+    </item>
+    <dc:date>2013-12-22T00:00:00+00:00</dc:date>
+  </channel>
+</rss>
